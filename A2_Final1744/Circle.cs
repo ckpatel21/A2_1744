@@ -27,7 +27,10 @@ namespace A2_Final1744
 
         public void SetRadius(int radius)
         {
-            this.radius = radius;
+            if(radius > 0)
+            {
+                this.radius = radius;
+            }
         }
 
         public double GetCircumference()
